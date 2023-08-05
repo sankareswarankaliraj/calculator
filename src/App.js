@@ -23,6 +23,7 @@ export default function App() {
   return (
     <div classname="container">
       <br />
+      <h1>simple calculator</h1>
         <div classname="calculator">
           <input type="text" placeholder="0" value={result} />
           <br />

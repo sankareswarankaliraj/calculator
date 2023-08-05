@@ -4,8 +4,6 @@
 }
 .calculator {
   padding: 20px;
-  width: 300px;
-  align-items: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 10px;
   text-align: center;
@@ -33,12 +31,6 @@ input {
   text-align: end;
   font-size: 18px;
 }
-.container {
-  margin: 80px;
-  padding: 80px;
-  align-items: center;
-  text-align: center;
-}
 button:hover {
   background-color: lightpink;
   transition-duration: 600ms;
@@ -52,4 +44,16 @@ button:hover {
 .highlight {
   background-color: grey;
   border-radius: 10px;
+}
+h1 {
+  background-color: green;
+  padding: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+.container {
+  margin: 80px;
+  padding: 80px;
+  align-items: center;
+  background-color: red;
 }
