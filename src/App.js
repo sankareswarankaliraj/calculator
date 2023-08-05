@@ -23,7 +23,6 @@ export default function App() {
   return (
     <div classname="container">
       <br />
-      <form>
         <div classname="calculator">
           <input type="text" placeholder="0" value={result} />
           <br />
@@ -84,7 +83,6 @@ export default function App() {
             0
           </button>
         </div>
-      </form>
     </div>
   );
 }
