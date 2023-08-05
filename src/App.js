@@ -21,69 +21,69 @@ export default function App() {
     }
   };
   return (
-    <div classname="container">
-      <br />
+    <div class="container">
       <h1>simple calculator</h1>
-        <div classname="calculator">
-          <input type="text" placeholder="0" value={result} />
-          <br />
-          <button class="highlight" onClick={clear}>
-            cl
-          </button>
-          <button class="highlight" onClick={handleclick}>
-            *
-          </button>
-          <button class="highlight" name="/" onClick={handleclick}>
-            /
-          </button>
-          <button class="highlight" name="Bs" onClick={backSpace}>
-            Bs
-          </button>
-          <br />
-          <button class="numeric" name="1" onClick={handleclick}>
-            1
-          </button>
-          <button name="2" onClick={handleclick}>
-            2
-          </button>
-          <button name="3" onClick={handleclick}>
-            3
-          </button>
-          <button class="highlight" name="-" onClick={handleclick}>
-            -
-          </button>
-          <br />
-          <button name="4" onClick={handleclick}>
-            4
-          </button>
-          <button name="5" onClick={handleclick}>
-            5
-          </button>
-          <button name="6" onClick={handleclick}>
-            6
-          </button>
-          <button class="highlight" name="+" onClick={handleclick}>
-            +
-          </button>
+      <div class="calculator">
+        <input type="text" placeholder="0" value={result} />
+        <br />
+        <button class="highlight" onClick={clear}>
+          cl
+        </button>
+        <button class="highlight" onClick={handleclick}>
+          *
+        </button>
+        <button class="highlight" name="/" onClick={handleclick}>
+          /
+        </button>
+        <button class="highlight" name="Bs" onClick={backSpace}>
+          Bs
+        </button>
+        <br />
+        <button class="numeric" name="1" onClick={handleclick}>
+          1
+        </button>
+        <button name="2" onClick={handleclick}>
+          2
+        </button>
+        <button name="3" onClick={handleclick}>
+          3
+        </button>
+        <button class="highlight" name="-" onClick={handleclick}>
+          -
+        </button>
+        <br />
+        <button name="4" onClick={handleclick}>
+          4
+        </button>
+        <button name="5" onClick={handleclick}>
+          5
+        </button>
+        <button name="6" onClick={handleclick}>
+          6
+        </button>
+        <button class="highlight" name="+" onClick={handleclick}>
+          +
+        </button>
 
-          <br />
-          <button name="7" onClick={handleclick}>
-            7
-          </button>
-          <button name="8" onClick={handleclick}>
-            8
-          </button>
-          <button name="9" onClick={handleclick}>
-            9
-          </button>
-          <button class="highlight" name="=" onClick={calculate}>
-            =
-          </button>
-          <br />
-          <button class="zero" name="0" onClick={handleclick}>
-            0
-          </button>
-        </div>
+        <br />
+        <button name="7" onClick={handleclick}>
+          7
+        </button>
+        <button name="8" onClick={handleclick}>
+          8
+        </button>
+        <button name="9" onClick={handleclick}>
+          9
+        </button>
+        <button class="highlight" name="=" onClick={calculate}>
+          =
+        </button>
+        <br />
+        <button class="zero" name="0" onClick={handleclick}>
+          0
+        </button>
+      </div>
+      <h4>designed by sankareswarankaliraj</h4>
     </div>
   );
 }
