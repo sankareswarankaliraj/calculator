@@ -4,12 +4,12 @@
 }
 .calculator {
   padding: 20px;
-  margin:20px 508px ;
+  margin: 20px 508px;
   width: fit-content;
   box-shadow: #64646f33 0px 7px 29px 0px;
   border-radius: 10px;
   text-align: center;
-  background-color:lightblue;
+  background-color:rgb(102, 228, 201);
 }
 button {
   height: 30px;
@@ -58,6 +58,6 @@ h1 {
   text-align: center;
   padding: 20px;
 }
-h4{
-background-color: green;
+h4 {
+  background-color: green;
 }
