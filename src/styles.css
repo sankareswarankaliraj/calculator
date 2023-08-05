@@ -9,7 +9,7 @@
   box-shadow: #64646f33 0px 7px 29px 0px;
   border-radius: 10px;
   text-align: center;
-  background-color:rgb(102, 228, 201);
+  background-color: rgb(102, 228, 201);
 }
 button {
   height: 30px;
@@ -60,4 +60,6 @@ h1 {
 }
 h4 {
   background-color: green;
+  color: whitesmoke;
+  padding: 5px;
 }
