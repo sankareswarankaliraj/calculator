@@ -4,7 +4,7 @@
 }
 .calculator {
   padding: 20px;
-  margin:20px 508px;
+  margin: 20px 508px;
   width: fit-content;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
@@ -21,7 +21,7 @@ button {
   background-color: rgba(260, 248, 255, 0.2);
   border-radius: 30px;
   text-align: center;
-  color:whitesmoke;
+  color: whitesmoke;
 }
 input {
   margin: 10px;
@@ -29,7 +29,7 @@ input {
   width: 210px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: none;
-  background-color:aliceblue);
+  background-color: aliceblue;
   outline: none;
   border-radius: 30px;
   text-align: end;
@@ -58,7 +58,6 @@ h1 {
 .container {
   text-align: center;
   padding: 20px;
-
 }
 h4 {
   background-color: green;
