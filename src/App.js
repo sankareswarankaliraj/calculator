@@ -21,8 +21,10 @@ export default function App() {
     }
   };
   return (
-    <div class="container">
+    <div>
+    
       <h1>simple calculator</h1>
+      <div class="container">
       <div class="calculator">
         <input type="text" placeholder="0" value={result} />
         <br />
@@ -82,8 +84,11 @@ export default function App() {
         <button class="zero" name="0" onClick={handleclick}>
           0
         </button>
+        </div>
+    
+      
       </div>
       <h4>designed by sankareswarankaliraj</h4>
-    </div>
+      </div>
   );
 }
