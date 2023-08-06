@@ -28,7 +28,7 @@ export default function App() {
       <div class="calculator">
         <input type="text" placeholder="0" value={result} />
         <br />
-        <button class="highlight" onClick={clear}>
+        <button class="clear" onClick={clear}>
           cl
         </button>
         <button class="highlight" onClick={handleclick}>

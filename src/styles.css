@@ -39,11 +39,12 @@ input {
   width: 210px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border: none;
-  background-color: aliceblue;
+  background-color: rgb(90, 209, 126);
   outline: none;
   border-radius: 30px;
   text-align: end;
   font-size: 18px;
+  color: black;
 }
 button:hover {
   background-color: rgb(233, 11, 48);
@@ -56,6 +57,10 @@ button:hover {
 }
 .highlight {
   background-color: grey;
+  border-radius: 10px;
+}
+.clear {
+  background-color:red;;
   border-radius: 10px;
 }
 h1 {
